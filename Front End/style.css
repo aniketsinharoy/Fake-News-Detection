@@ -17,6 +17,7 @@ body {
 }
 
 .t {
+    font-size:large;
     position: relative;
     max-width: 213px;
     padding-right: 100px;
@@ -25,12 +26,14 @@ body {
 }
 
 .a {
+    font-size:large;
     position: relative;
     max-width: 213px;
     padding-left: 50px;
 }
 
 .d {
+    font-size:large;
     position: relative;
     max-width: 213px;
     padding-left: 50px;
@@ -49,6 +52,7 @@ img{
 }
 
 input[type=text], select {
+    font-family: 'Courier New', Courier, monospace;
     width: 400%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -62,3 +66,35 @@ textarea {
     padding: 12px 20px;
     box-sizing: border-box;
 }
+
+input[type=button] {
+    background-color: #aa4404;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 5px rgb(169, 162, 148);
+  }
+
+.button:hover {
+    background-color: burlywood;
+    color: #aa4404;
+    font-weight: bold;
+  }
+
+  .button:active {
+    background-color: burlywood;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 900px;
+  }
