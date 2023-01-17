@@ -10,35 +10,33 @@
 </head>
 
 <body>
-    <div class="row">
-            <div id="det">
-                <h1>Fake News Detector</h1>
-                <img src="hr.png">
-                <h4>A trusted website to determine whether a news is Real or Fake.</h4>
-            </div> <br>
+    <div id="det">
+        <h1>Fake News Detector</h1>
+        <img src="hr.png">
+        <h4>A trusted website to determine whether a news is Real or Fake.</h4>
+    </div> <br>
 
-            <form>
-            <div class="t">
-                <label for="title">Title:</label><br>
-                <input type="text" id="title" name="title" placeholder="Type the title of the news here...">
-            </div>
+    <form>
+        <div class="t">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title" placeholder="Type the title of the news here...">
+        </div>
 
-            <div class="a">
-                <label for="author">Author:</label><br>
-                <input type="text" id="author" name="author" placeholder="Type the author's name here...">
-            </div>
+        <div class="a">
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author" placeholder="Type the author's name here...">
+        </div>
 
-            <div class="d">
-                <label for="details">Detailed News:</label><br><br>
-                <textarea id="details" name="details" placeholder="Type the detailed news here..."></textarea><br>
-            </div>
+        <div class="d">
+            <label for="details">Detailed News:</label><br><br>
+            <textarea id="details" name="details" placeholder="Type the detailed news here..."></textarea><br>
+        </div>
 
-            <div class="button">
-                <button onclick="test()">Test</button>
-                <span id="result"></span>
-            </div>
-        </form>
+        <div class="b">
+        <input type="button" class="button" value="VERIFY" onclick="test()">
     </div>
+    </form>
+
 </body>
 
 </html>
